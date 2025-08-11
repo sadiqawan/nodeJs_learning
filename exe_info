@@ -1,0 +1,9 @@
+// now we want to add a new package to our project that is nodemon which will help us to automatically restart the server when we make changes to the code
+// simply run the command npm install nodemon
+// and then we can run the server using the command nodemon server.js
+// this will automatically restart the server when we make changes to the code
+
+
+
+
+

@@ -14,11 +14,12 @@
 
 // This code creates a simple HTTP server using Node.js
 const http = require('http');
+const colors = require('colors');
 
 http.createServer((req, res) => {
-    res.write('This is the response from the server\n');
+    res.write('This is the response from the server\n'.green);
     // res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Hello World\n');
-}).listen(4800, () => {
-    console.log('Server is running on port 4800');
+}).listen(300, () => {
+    console.log('Server is running on port 300');
 });
