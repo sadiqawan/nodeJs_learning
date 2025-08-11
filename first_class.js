@@ -8,7 +8,7 @@ function add(a, b) {
 }
 
 add(3, 4);
-
+// Function to add two numbers
 var name = 'sadiq';
 var studentclass = 'ABD';
 function data() {

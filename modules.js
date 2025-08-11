@@ -9,7 +9,6 @@
 
 const fs = require('fs');
 // fs is basically a file system module that allows us to interact with the file system
-
 const path = require('path');
 // path is a module that allows us to work with file and directory paths
 
@@ -20,7 +19,7 @@ const os = require('os');
 os.cpus
 console.log(os.cpus());
 console.log(os.platform());
-console.log(os.arch());    
+console.log(os.arch());
 console.log(os.homedir());
 
 

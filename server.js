@@ -12,7 +12,7 @@
 // });
 
 
-
+// This code creates a simple HTTP server using Node.js
 const http = require('http');
 
 http.createServer((req, res) => {

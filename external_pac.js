@@ -8,6 +8,7 @@
 // and it will also create a node_modules folder where the package will be installed   
 //and also create a package-lock.json file which contains the exact version of the package that was installed
 
+//
 
 // how to use that package
 // 1. require the package in your code
