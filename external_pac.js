@@ -10,6 +10,8 @@
 
 
 // how to use that package
+// 1. require the package in your code
+// 2. use the package as per its documentation
 const colors = require('colors');
 
 console.log(colors.green("this is my name " + ' and I am learning nodejs'));
