@@ -1,5 +1,6 @@
 
 // declaration of vaiables
+// var, let, const
 
 let a =20;
 var b = 30;

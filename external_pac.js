@@ -12,13 +12,12 @@
 // how to use that package
 const colors = require('colors');
 
-console.log(colors.green("this is my name "+ ' and I am learning nodejs'));
+console.log(colors.green("this is my name " + ' and I am learning nodejs'));
 
-console.log(colors.red("this is my name "+ ' and I am learning nodejs'));
+console.log(colors.red("this is my name " + ' and I am learning nodejs'));
 
 const fs = require('fs');
-
-
+// how to use http module to create a simple server
 const http = require('http');
 
 http.createServer((req, res) => {
