@@ -6,4 +6,26 @@
 
 
 
+// here we want diffrent type of server response 
+ // look at this it give html type response if we want to change we can like jason type stc
 
+
+// res.writeHead(200, { 'Content-Type': 'html' });
+
+
+
+const http = require('http');
+
+
+<!-- // Create a simple HTTP server
+http.createServer((req, res) => {
+    // Set the response HTTP header with HTTP status and Content type
+    res.writeHead(200, { 'Content-Type': 'html' });
+    // Write a response to the client
+    res.write('This is the response from the server\n');
+    
+    // Send the response body "Hello World"
+    res.end('Hello World\n');
+}).listen(3000, () => {
+    console.log('Server running at http://localhost:3000/');
+});  -->
